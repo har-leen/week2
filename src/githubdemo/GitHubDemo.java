@@ -40,4 +40,27 @@ to save it in local repository -- we use the comand commit
 right click on project -- git -- commit
 we can give any message
 press commit
+you won't see any message.. for conformation
+*right click on project -- git -- repository -- repository browser (it shows the details of the repositories)
+*a window opens -- under project name in the branches -- local -- we can a master copy with the version number(not important to us) 
+which gives the confirmation
+ */
+
+
+ /*
+PUSH Operation -- remote repository
+copy the path of the repository created on github.com
+in netbeans right click on the project -- git -- remote -- push... 
+in the repository url paste the path copied
+enter your username and password(in place of github password, add github token as the password)
+click next -- check the master -- next -- finish
+a screen appears asking for tracking, click yes
+ */
+
+/*
+PULL Operation 
+changes in netbeans -- commit it in LR
+To see the changes occured in netbeans -- right click on project -- git -- show changes
+open the modified file -- and it will show the changes done after pushing the code which is not present in LR
+To update the LR with the changes made we need to commit 
 */
