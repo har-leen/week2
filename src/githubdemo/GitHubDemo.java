@@ -6,7 +6,7 @@ public class GitHubDemo {
 
         System.out.println("Learning Github");
         System.out.println("changes in github");
-        // fetch and merge
+        // fetch merge
 
     }
 
